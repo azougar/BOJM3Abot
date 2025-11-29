@@ -1,5 +1,5 @@
 {
-  "name": "avatar-bot",
+  "name": "BOJM3Abot",
   "version": "1.0.0",
   "description": "Discord bot that sends avatar when user types '@user a'",
   "main": "index.js",
