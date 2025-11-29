@@ -20,7 +20,7 @@ client.on("messageCreate", async (msg) => {
     if (msg.author.bot) return;
 
     // Example: @user a
-    if (msg.mentions.users.size > 0 && msg.content.endsWith(" a")) {
+    if (msg.mentions.users.size > 0 && msg.content.endsWith(" a") || msg.mentions.users.size > 0 && msg.content.endsWith(" A")) {
         const mentionedUser = msg.mentions.users.first();
         if (!mentionedUser) return;
 
