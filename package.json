@@ -1,0 +1,12 @@
+{
+  "name": "avatar-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that sends avatar when user types '@user a'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "14.13.0"
+  }
+}
